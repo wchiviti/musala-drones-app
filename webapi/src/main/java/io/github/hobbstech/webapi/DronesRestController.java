@@ -29,7 +29,7 @@ public class DronesRestController {
         return droneQueryService.findLoadableDrones();
     }
 
-    @GetMapping("/v1/drones/{droneUuid}")
+    @GetMapping("/v1/drones/{droneUuid}/battery-capacity")
     @Operation(summary = "check drone battery level for a given drone")
     public BatteryLevelDto checkBattery(@PathVariable String droneUuid){
         return droneQueryService.getBatteryDetailsByUuid(droneUuid);
