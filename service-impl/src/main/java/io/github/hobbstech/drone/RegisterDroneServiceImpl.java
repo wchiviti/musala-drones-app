@@ -10,14 +10,14 @@ import org.springframework.transaction.annotation.Transactional;
 @Service
 @Transactional
 @RequiredArgsConstructor
-class CreateDroneServiceImpl implements CreateDroneService {
+class RegisterDroneServiceImpl implements RegisterDroneService {
 
     private final DronesRepository dronesRepository;
 
     private final DroneMapper droneMapper;
 
     @Override
-    public DroneDto create(DroneCommand command) {
+    public DroneDto register(DroneCommand command) {
 
         Validations.validate(command);
 

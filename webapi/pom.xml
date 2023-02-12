@@ -15,6 +15,33 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <springdoc-openapi-ui>1.6.12</springdoc-openapi-ui>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>${springdoc-openapi-ui}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-data-rest</artifactId>
+            <version>${springdoc-openapi-ui}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-security</artifactId>
+            <version>${springdoc-openapi-ui}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.hobbstech</groupId>
+            <artifactId>service-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.github.hobbstech</groupId>
+            <artifactId>business-api</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

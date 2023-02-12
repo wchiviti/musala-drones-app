@@ -11,7 +11,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
         uniqueConstraints = {
                 @UniqueConstraint(columnNames = "uuid", name = "medications_uuid"),
         },
-        indexes = {@Index(name = "drones_uuid_idx", columnList = "uuid")})
+        indexes = {@Index(name = "medications_uuid_idx", columnList = "uuid")})
 @Getter
 @Setter
 @EntityListeners(AuditingEntityListener.class)
