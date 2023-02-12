@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>webapi</artifactId>
+    <artifactId>file-management</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -35,11 +35,7 @@
         </dependency>
         <dependency>
             <groupId>io.github.hobbstech</groupId>
-            <artifactId>service-api</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.github.hobbstech</groupId>
-            <artifactId>business-api</artifactId>
+            <artifactId>utils</artifactId>
         </dependency>
     </dependencies>
 
