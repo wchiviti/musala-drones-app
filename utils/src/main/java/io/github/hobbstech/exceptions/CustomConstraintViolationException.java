@@ -8,10 +8,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-/**
- * @author Wilson Chiviti
- */
-
 @ResponseStatus(HttpStatus.BAD_REQUEST)
 public class CustomConstraintViolationException extends ConstraintViolationException {
 
