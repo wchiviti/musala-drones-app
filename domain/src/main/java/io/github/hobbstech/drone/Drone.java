@@ -30,8 +30,8 @@ class Drone extends DefaultIdentifierAuditedEntity {
     @Column(name = "weight_limit")
     private int weightLimit;
 
-    @Column(name = "battery_percentage")
-    private double batteryPercentage;
+    @Column(name = "battery_capacity")
+    private double batteryCapacity;
 
     @Column(name = "state")
     @Enumerated(EnumType.STRING)

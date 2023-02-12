@@ -29,4 +29,10 @@ class Medication extends DefaultIdentifierAuditedEntity {
     @Column(name = "weight")
     private double weight;
 
+    @Column(name = "drone_uuid", nullable = false)
+    private String droneUuid;
+
+    @Column(name = "drone_id", nullable = false)
+    private long droneId;
+
 }
